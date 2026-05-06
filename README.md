@@ -96,5 +96,5 @@ Aluno: Robert Douglas <br>
 Professor: Robson Souza <br>
 Turma: Web Mobile (Turma 1 - Noturno) <br>
 
-Nota: Comtemple o melhor inicial de todos, charmander é para os fracos! Aqui é time tartaruga bolada de oculos escuros! :P
+Nota: Contemple o melhor inicial de todos, charmander é para os fracos! Aqui é time tartaruga bolada de oculos escuros! :P
 ![alt Contemple o melhor pokemon da terra - Squirtle de oculos escuros](pokemon-squirtle.gif)
