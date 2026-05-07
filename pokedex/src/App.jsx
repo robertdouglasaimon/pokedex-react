@@ -89,6 +89,9 @@ function handleBusca(evento) {
             { pokemon &&
               <>
                 <img id="pokemon" src={pokemon.sprite} alt={pokemon.nome} />
+                <div className="nome">
+                  {pokemon.nome.charAt(0).toUpperCase() + pokemon.nome.slice(1).toLowerCase()}
+                </div>
                 <div className="descricao">{pokemon.descricao}</div>
                 <div className="tipos">
                   {pokemon.tipos.map(tipo => (

@@ -192,3 +192,16 @@ body {
   text-transform: capitalize;
 }
 /*--------------------------------------------------------*/
+
+.nome {
+  position: absolute;
+  top: 29%;
+  left: 27.6%;
+
+  padding: 0 15px 0 15px;
+  border: rgba(0, 0, 0, 0.103) solid 2px !important;
+  border-radius: 5px !important;
+  box-shadow: #0000003d 3px 3px 6px 0px !important;
+  color: white;
+  font-weight: bold;
+}
