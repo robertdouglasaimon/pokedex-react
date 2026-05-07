@@ -27,8 +27,11 @@ export default function App() {
         tipos: dados.types.map(tipo => tipo.type.name),
         sprite: dados.sprites.other.showdown.front_default,
         descricao,
-        cry: `https://play.pokemonshowdown.com/audio/cries/${dados.name}.mp3`
+        cry: `https://play.pokemonshowdown.com/audio/cries/${dados.name}.mp3`,
+        habilidades: dados.abilities.map(h => h.ability.name)
       });
+
+
 
 
       setLuzColor("green"); // Acende a verde quando acha lá na pesquisa
@@ -92,6 +95,7 @@ function handleBusca(evento) {
                     <span key={tipo} className={`tipo ${tipo}`}>{tipo}</span>
                   ))}
                 </div>
+                
 
                 {/* <div className="grito">
                   <audio controls src={pokemon.cry}></audio>
@@ -114,6 +118,7 @@ function handleBusca(evento) {
                 carregarPokemon(busca);
               }
             }}
+            
           />
 
           <button 
@@ -141,6 +146,18 @@ function handleBusca(evento) {
           </div>
           
         </div>
+
+        <div className="quadro-habilidades">
+          <h3>Habilidades</h3>
+          {pokemon?.habilidades && (
+            <ul>
+              {pokemon.habilidades.map((hab, index) => (
+                <li key={index}>{hab}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+
 
       </div>
 
